@@ -1,0 +1,26 @@
+{
+    "name": "motokraft/traits",
+    "description": "Реализует методы для повторного использования кода",
+    "keywords": [ "object", "trait", "php" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Motokraft",
+            "email": "valeravk230594@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Motokraft\\Traits\\": ""
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
